@@ -1,0 +1,15 @@
+<h2>Please fill in all of the below fields for the movie.</h2> 
+
+<form action="/movieForm" method="POST">
+    <label for="title">Title</label>
+    <input type="text" name="title" placeholder=" e.g Harry Potter"/>
+    <label for="genre">Genre</label>
+    <input type="text" name="genre" placeholder="e.g Drama"/>
+    <label for="rating">Rating</label>
+    <input type="number" name="rating" placeholder="eg 8.9"/>
+    <label for="releaseDate">Release Date</label>
+    <input type="date" name="releaseDate" placeholder="12/06/2010"/>
+    <input type="submit" value="Submit">
+</form>
+
+{{err}}

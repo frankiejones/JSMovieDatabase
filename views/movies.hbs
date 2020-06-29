@@ -1,0 +1,13 @@
+<h3>Search for the Movie by the Title</h3>
+<form action="/animals" method="post">
+<label for="title">Search</label>
+<input type="text" name="findMovie" placeholder="Eg Harry Potter">
+<input type="submit" value="Submit">
+</form>
+
+{{#each findMovie}}
+<p>{{this.title}}</p>
+<p>{{this.genre}}</p>
+<p>{{this.rating}}</p>
+<p>{{this.releaseDate}}</p>
+{{/each}}
