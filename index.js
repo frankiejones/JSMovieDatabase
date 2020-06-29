@@ -7,6 +7,7 @@ const app = express(); // initialising express to be used as a function
 
 require('dotenv').config(); // create a .env file and .gitignore
 
+
 mongoose.connect(process.env.databaseURL, {
     useNewUrlParser:true, useUnifiedTopology: true
 });
